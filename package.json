@@ -1,0 +1,29 @@
+{
+  "name": "ipfs-study-case",
+  "version": "1.0.0",
+  "description": "Studying IPFS in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daviortega/ipfs-study-case.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daviortega/ipfs-study-case/issues"
+  },
+  "go-ipfs": {
+    "version": "v0.4.13"
+  },
+  "homepage": "https://github.com/daviortega/ipfs-study-case#readme",
+  "dependencies": {
+    "go-ipfs-dep": "^0.4.15",
+    "ipfs-api": "^22.1.0",
+    "ipfsd-ctl": "^0.37.4",
+    "through2": "^2.0.3"
+  }
+}
